@@ -117,6 +117,6 @@ body{
 
     .card h2:hover{
         color: hsl(47, 88%, 63%);
-        transition: color 0.25s;
+        transition: color 0.25s ease-in-out;
     }
 }
