@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Figtree Variable;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+  }
+
+@font-face {
+    font-family: Figtree Italic-Variable;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Figtree Semibold;
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Figtree ExtraBold;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+/*tag selectors*/
+body{
+    background-color: hsl(47, 88%, 63%);
+    padding: 16px;
+    font-family: Figtree Variable;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100svh;
+}
+
+.card img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.highlight h2{
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+
+.text h4{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text h2{
+    font-family: Figtree ExtraBold; 
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.text p{
+    text-align: justify;
+    font-size: 0.875rem;
+}
+
+/*class selectors*/
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 384px;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px #000;
+    min-width: 255px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 12px;
+}
+
+.highlight{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 12px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author img{
+    width: 32px;
+    height: 32px;
+}
+
+@media (min-width:801px){
+    .card:hover{
+        box-shadow: 16px 16px 0px 0px #000;
+        transition: box-shadow 1s;
+    }
+
+    .card h2:hover{
+        color: hsl(47, 88%, 63%);
+        transition: color 0.25s;
+    }
+}
