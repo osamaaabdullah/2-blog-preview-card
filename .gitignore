@@ -15,6 +15,9 @@
 .DS_Store
 .prettierignore
 
+#files
+README-initial.md
+
 #folders
 zip files/
 blog-preview-card-figma/

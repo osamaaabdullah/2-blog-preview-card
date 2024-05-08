@@ -78,6 +78,8 @@ body{
     border-radius: 20px;
     box-shadow: 8px 8px 0px 0px #000;
     min-width: 255px;
+    transition: color 1s ease-in-out;
+    transition: box-shadow 1s ease-in-out;
 }
 
 .text{
@@ -112,11 +114,9 @@ body{
 @media (min-width:801px){
     .card:hover{
         box-shadow: 16px 16px 0px 0px #000;
-        transition: box-shadow 1s;
     }
 
     .card h2:hover{
         color: hsl(47, 88%, 63%);
-        transition: color 0.25s ease-in-out;
     }
 }
