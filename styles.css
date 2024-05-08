@@ -65,6 +65,17 @@ body{
     font-size: 0.875rem;
 }
 
+.author img{
+    width: 32px;
+    height: 32px;
+}
+
+.author h3{
+    font-family: Figtree ExtraBold;
+    font-size: 0.875rem;
+    font-weight: 800;
+}
+
 /*class selectors*/
 .card{
     display: flex;
@@ -106,10 +117,6 @@ body{
     gap: 12px;
 }
 
-.author img{
-    width: 32px;
-    height: 32px;
-}
 
 @media (min-width:801px){
     .card:hover{

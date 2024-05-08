@@ -14,7 +14,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ## Overview
 
 ### Links
-- Live Site URL: [QR-Code-Challenge](https://osamaaabdullah.github.io/1-QR-code-challenge/)
+- Live Site URL: [QR-Code-Challenge](https://osamaaabdullah.github.io/2-blog-preview-card/)
 
 ## My process
 Start with mobile layout first and at every stage check the dimensions required for each layout. Put a breakpoint for low res desktops and add css for interaction. 
